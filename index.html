@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Welcome to Insha's portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+        <link rel="icon" href="code.png">
+
+    </head>
+    <body>
+    <header>    
+    <nav class="navbar">
+        <h1>Insha Tariq</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">My Portfolio</li>    
+            <li><a href="#hire">Hire me</a></li>    
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Hi, I'm Insha Tariq</h1>
+            <p>Front-end Developer</p>
+            <button onclick="window.location.href='#portfolio'">View my work</button>
+        </section>
+        <div class="wrapper">
+            <section id="about">
+                <h2>About me</h2>
+                <p>I'm a front-end developer based in Munich. I have a passion for web design and love to create websites that are both beautiful and functional. I have experience with HTML, CSS, and JavaScript, and am always looking to expand my skill set.</p>
+                <img src="my.jpg" alt="About me image" style="float: right;">
+            </section>
+            <section id="skills">
+                <h2>My Skills</h2>
+                <ul>
+                    <li><img src="html.png"><span class="header-skill">HTML</span><span class="gap"> The building blocks of a webpage. It defines the structure and content of a webpage, like headings, paragraphs, images, and links. Imagine it as the skeleton of a website.</span></li>
+                    <li><img src="css.png"><span class="header-skill">CSS</span><span class="gap"> Dictates how HTML is presented on a screen.
+                        It controls the look and feel of a webpage, like fonts, colors, layouts, and animations. Think of it as the styling for the website's skeleton.</span></li>
+                    <li><img src="js.png"><span class="header-skill">JavaScript</span><span class="gap"> Adds interactivity to webpages.
+                        It allows for dynamic content, user interaction, and complex animations. Imagine it as the muscles and nerves that bring the website to life.</span></li>
+                    <li><img src="react.png"><span class="header-skill">React</span><span class="gap">A popular JavaScript library for building user interfaces.
+                        It allows for creating reusable components and makes building complex web applications easier. Think of it as a pre-built toolkit to help you assemble website features efficiently.</span></li>
+                    <li><img src="nodejs.png"><span class="header-skill">NodeJS</span><span class="gap"> An environment that allows you to run JavaScript code outside of a web browser.
+                        This enables building web servers and applications that run on the server side. Imagine it as a JavaScript engine that can power entire websites, not just what you see in the browser.</span></li>
+                </ul>
+            </section>
+        <section id="portfolio">
+            <h2>My Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="1.png" alt="portfolio-item">
+                <h3>Paramount</h3>
+                <p>Paramount is a TV show that follows the lives of a group of individuals in a small town. With its compelling storyline and relatable characters, Paramount is sure to keep you hooked from start to finish.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="2.png" alt="portfolio-item">
+                <h3>Amazon Prime Video</h3>
+                <p>Amazon Prime Video is a streaming service similar to Netflix or Hulu.
+                    It offers movies, TV shows, and even some live sports and channels. You can access it with a Prime membership or by subscribing to the service itself. </p>
+            </div>
+            <div class="portfolio-item">
+                <img src="3.png" alt="portfolio-item">
+                <h3>Hulu</h3>
+                <p>Hulu is an American subscription streaming media and content hub within the Disney+ streaming service owned by The Walt Disney Company. It was launched on October 29, 2007.</p>
+            </div>
+        </section>
+        <section id="hire">
+            <h2>Contact me</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="type" id="name" name="name" placeholder="your name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    
+    </main>
+    <footer>
+        <em>Copyright® 2024</em>
+    </footer>
+    </body>
+</html>
